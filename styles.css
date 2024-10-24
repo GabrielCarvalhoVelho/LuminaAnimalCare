@@ -255,7 +255,7 @@ footer p {
 
     .logo img {
         width: auto; /* Permite que a largura do logo se ajuste proporcionalmente */
-        max-width: 60%; /* Ajusta o tamanho máximo do logo */
+        max-width: 50%; /* Ajusta o tamanho máximo do logo */
         height: auto; /* Mantém a proporção da imagem */
     }
 
