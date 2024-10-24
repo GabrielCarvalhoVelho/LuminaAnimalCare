@@ -243,7 +243,7 @@ footer p {
     }
     
     .whatsapp img {
-        width: 35px; /* Tamanho reduzido do ícone do WhatsApp */
+        width: 40px; /* Aumenta o tamanho do ícone do WhatsApp */
         height: auto; /* Mantém a proporção da imagem */
     }
 
