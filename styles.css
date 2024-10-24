@@ -222,6 +222,18 @@ footer p {
         display: none; /* Remove a seção de fachada */
     }
 
+    .whatsapp {
+        position: fixed; /* Faz com que o botão fique fixo na tela */
+        bottom: 20px; /* Distância do fundo da tela */
+        right: 20px; /* Distância da esquerda da tela */
+        z-index: 1000; /* Garante que o botão apareça acima de outros elementos */
+    }
+    
+    .whatsapp img {
+        width: 35px; /* Tamanho reduzido do ícone do WhatsApp */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
     .logo img {
         width: 100%; /* Faz com que o logo ocupe 100% da largura da página */
         height: auto; /* Mantém a proporção da imagem */
