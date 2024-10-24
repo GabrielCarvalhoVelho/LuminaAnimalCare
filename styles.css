@@ -22,6 +22,14 @@ header {
     width: 150px;
 }
 
+.divider {
+    border: none; /* Remove borda padrão */
+    height: 2px; /* Espessura da linha */
+    background-color: #6F07AB; /* Cor roxa */
+    margin: 10px 0; /* Espaçamento acima e abaixo da linha */
+    display: none; /* Inicialmente oculta */
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -212,6 +220,10 @@ footer p {
     header {
         flex-direction: column;
         align-items: flex-start; /* Alinha os elementos à esquerda */
+    }
+
+    .divider {
+        display: block; /* Exibe a linha na versão móvel */
     }
 
     nav { 
