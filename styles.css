@@ -220,7 +220,7 @@ footer p {
 @media (max-width: 768px) {
     header {
         flex-direction: column;
-        align-items: flex-start; /* Alinha os elementos à esquerda */
+        align-items: center; /* Alinha os elementos ao centro */
     }
 
     .divider {
@@ -247,8 +247,15 @@ footer p {
         height: auto; /* Mantém a proporção da imagem */
     }
 
+    .logo{
+        display: flex; /* Usar flex para centralizar o conteúdo */
+        justify-content: center; /* Centraliza horizontalmente */
+        width: 100%; /* Garante que o logo utilize toda a largura do contêiner */
+    }
+
     .logo img {
-        width: 100%; /* Faz com que o logo ocupe 100% da largura da página */
+        width: auto; /* Permite que a largura do logo se ajuste proporcionalmente */
+        max-width: 60%; /* Ajusta o tamanho máximo do logo */
         height: auto; /* Mantém a proporção da imagem */
     }
 
