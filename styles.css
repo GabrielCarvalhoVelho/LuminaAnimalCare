@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Roboto'; /* Atualiza para Roboto */
     background-color: #fff;
     color: #333;
 }
@@ -37,8 +37,10 @@ nav ul li a {
     font-size: 18px;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, .servico:hover {
     color: #6F07AB;
+    transform: scale(1.05); /* Aumenta levemente o tamanho */
+    transition: transform 0.3s, color 0.3s; /* Transição suave */
 }
 
 .whatsapp img {
@@ -63,6 +65,15 @@ nav ul li a:hover {
 footer .redes-sociais a img {
     color: #6F07AB;
     margin-bottom: 20px; /* Ajuste o valor conforme necessário */
+    opacity: 0; /* Inicia invisível */
+    animation: fadeIn 1s forwards; /* Animação de fade in */
+    animation-delay: 0.3s; /* Delay para o título */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Faz com que o elemento fique visível */
+    }
 }
 
 .sobre-nos .conteudo {
@@ -82,13 +93,19 @@ footer .redes-sociais a img {
     width: 100%;
     height: auto;
     border-radius: 15px; /* Ajuste o valor para aumentar ou diminuir a curvatura */
+    opacity: 0; /* Inicia invisível */
+    animation: fadeIn 1s forwards; /* Animação de fade in para a imagem */
+    animation-delay: 0.5s; /* Delay para a imagem */
 }
 
 .sobre-nos .texto {
-    max-width: 400px; /* Mesma largura que a imagem */
+    max-width: 410px; /* Mesma largura que a imagem */
     margin: 0 auto; /* Centraliza o texto horizontalmente */
     text-align: center; /* Justifica o texto */
     font-size: large;
+    opacity: 0; /* Inicia invisível */
+    animation: fadeIn 1s forwards; /* Animação de fade in para o texto */
+    animation-delay: 0.7s; /* Delay para o texto */
 }
 
 .servicos-container {
@@ -103,6 +120,10 @@ footer .redes-sociais a img {
     border-radius: 15px; /* Borda arredondada */
     text-align: center; /* Alinha o texto ao centro */
     overflow: hidden; /* Para garantir que as bordas arredondadas sejam aplicadas */
+    opacity: 0; /* Inicia invisível */
+    animation: fadeIn 1s forwards; /* Animação de fade in */
+    animation-delay: 0.3s; /* Delay para cada serviço */
+    animation-fill-mode: forwards; /* Mantém a animação após a conclusão */
 }
 
 .servico p {
@@ -137,6 +158,9 @@ footer .redes-sociais a img {
 }
 
 .redes-sociais h2 {
+    opacity: 0; /* Inicia invisível */
+    animation: fadeIn 1s forwards; /* Animação de fade in para o título */
+    animation-delay: 0.3s; /* Delay para o título */
     margin-bottom: 20px; /* Espaçamento abaixo do título */
 }
 
@@ -152,6 +176,11 @@ footer .redes-sociais a img {
 .redes-sociais img {
     width: 50px; /* Aumente a largura dos ícones, por exemplo, para 50px */
     height: auto; /* Mantém a proporção das imagens */
+    transition: transform 0.3s; /* Suaviza a transformação */
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.1); /* Leve aumento ao passar o mouse */
 }
 
 footer {
@@ -171,4 +200,8 @@ footer img {
 
 footer p {
     margin-top: 10px;
+    opacity: 0; /* Inicia invisível */
+    animation: fadeIn 1s forwards; /* Animação de fade in para o texto do rodapé */
+    animation-delay: 0.3s; /* Delay para o texto do rodapé */
 }
+
