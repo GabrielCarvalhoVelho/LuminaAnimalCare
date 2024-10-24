@@ -205,3 +205,61 @@ footer p {
     animation-delay: 0.3s; /* Delay para o texto do rodapé */
 }
 
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start; /* Alinha os elementos à esquerda */
+    }
+
+    nav ul {
+        flex-direction: column; /* Mudança de linha para coluna no menu */
+        margin-top: 10px; /* Espaçamento entre o logo e o menu */
+    }
+
+    nav ul li {
+        margin-bottom: 10px; /* Espaçamento entre os itens do menu */
+        margin-right: 0; /* Remove o espaçamento à direita */
+    }
+
+    .sobre-nos .conteudo {
+        flex-direction: column; /* Coloca a imagem e o texto em coluna */
+        align-items: center; /* Centraliza verticalmente */
+    }
+
+    .sobre-nos .imagem {
+        width: 100%; /* Largura total */
+        margin-right: 0; /* Remove a margem direita */
+    }
+
+    .sobre-nos .texto {
+        max-width: 90%; /* Aumenta a largura para dispositivos móveis */
+    }
+
+    .servicos-container {
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas em vez de três */
+    }
+
+    .servico img {
+        height: 150px; /* Ajusta a altura para imagens */
+    }
+
+    .mapa,
+    .redes-sociais {
+        padding: 20px; /* Reduz o padding */
+    }
+
+    footer {
+        padding: 10px; /* Reduz o padding */
+    }
+
+    footer logo img, 
+    .footer-logo img {
+        width: 100px; /* Reduz a largura do logotipo no rodapé */
+    }
+
+    .redes-sociais img {
+        width: 40px; /* Ajusta a largura dos ícones das redes sociais */
+    }
+}
+
