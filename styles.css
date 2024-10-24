@@ -274,7 +274,8 @@ footer p {
     }
 
     .sobre-nos .texto {
-        max-width: 90%; /* Aumenta a largura para dispositivos móveis */
+        max-width: 100%; /* Aumenta a largura para dispositivos móveis */
+        text-align: justify;
     }
 
     .servicos-container {
