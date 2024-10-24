@@ -239,6 +239,10 @@ footer p {
         height: auto; /* Mantém a proporção da imagem */
     }
 
+    .sobre-nos {
+        margin-top: -10px
+    }
+
     .sobre-nos .conteudo {
         flex-direction: column; /* Coloca a imagem e o texto em coluna */
         align-items: center; /* Centraliza verticalmente */
