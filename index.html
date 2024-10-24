@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lumina Animal Care</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -14,10 +16,10 @@
         <nav>
             <ul>
                 <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Local</a></li>
-                <li><a href="#">Redes Sociais</a></li>
+                <li><a href="#sobre-nos">Sobre nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#local">Local</a></li>
+                <li><a href="#redes-sociais">Redes Sociais</a></li>
             </ul>
         </nav>
         <div class="whatsapp">
@@ -29,12 +31,28 @@
         <img src="./assets/fachada.png" alt="Fachada da Clínica Veterinária">
     </section>
 
-    <section class="sobre-nos">
+    <section class="sobre-nos" id="sobre-nos">
         <h2>Sobre nós</h2>
         <div class="conteudo">
-            <div class="imagem"></div>
+            <div class="imagem">
+                <img src="./assets/sobre-nos.jpg" alt="Imagem Sobre Nós">
+            </div>
             <div class="texto">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                <p>
+                    Bem-vindo à Lumina Animal Care, onde o cuidado e o bem-estar dos seus animais de estimação são a
+                    nossa prioridade máxima. Desde a nossa fundação, nos dedicamos a oferecer serviços veterinários de
+                    alta qualidade, cercando cada animal com carinho e competência. Nossa equipe é formada por
+                    profissionais apaixonados e comprometidos que utilizam as mais recentes tecnologias e técnicas para
+                    garantir que seu amigo peludo receba o melhor tratamento possível. Aqui, acreditamos que cada visita
+                    ao veterinário deve ser uma experiência positiva para você e seu pet. Estamos ansiosos para tê-lo
+                    com a gente.
+                </p>
+                <p>
+                    Nosso compromisso vai além do tratamento médico. Oferecemos aconselhamento nutricional, serviços de
+                    bem-estar e programas de saúde preventivos que mantêm os seus pets saudáveis e felizes durante toda
+                    a vida. Com uma abordagem personalizada, cuidamos de cada animal como se fosse nosso, garantindo um
+                    ambiente acolhedor e seguro.
+                </p>
             </div>
         </div>
     </section>
@@ -42,31 +60,57 @@
     <section class="servicos">
         <h2>Serviços</h2>
         <div class="servicos-container">
-            <div class="servico">Serviço 1</div>
-            <div class="servico">Serviço 2</div>
-            <div class="servico">Serviço 3</div>
-            <div class="servico">Serviço 1</div>
-            <div class="servico">Serviço 2</div>
-            <div class="servico">Serviço 3</div>
+            <div class="servico">
+                <img src="./assets/servico1.jpg" alt="Consulta Veterinária">
+                <p>Consulta Veterinária</p>
+            </div>
+            <div class="servico">
+                <img src="./assets/servico2.jpg" alt="Vacinação">
+                <p>Vacinação</p>
+            </div>
+            <div class="servico">
+                <img src="./assets/servico3.jpg" alt="Exames Laboratoriais">
+                <p>Exames Laboratoriais</p>
+            </div>
+            <div class="servico">
+                <img src="./assets/servico4.jpg" alt="Cirurgias">
+                <p>Cirurgias</p>
+            </div>
+            <div class="servico">
+                <img src="./assets/servico5.jpg" alt="Banho e Tosa">
+                <p>Banho e Tosa</p>
+            </div>
+            <div class="servico">
+                <img src="./assets/servico6.jpg" alt="Aconselhamento Nutricional">
+                <p>Aconselhamento Nutricional</p>
+            </div>
         </div>
     </section>
 
-    <section class="local">
+    <section class="local" id="local">
         <h2>Local</h2>
-        <div class="mapa"></div>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.0091197364113!2d-46.5495047!3d-23.5321744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f62d18bc725%3A0x46de57b8f8de447f!2sLumina%20Animal%20Care!5e0!3m2!1spt-BR!2sbr!4v1729790738319!5m2!1spt-BR!2sbr"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section class="redes-sociais" id="redes-sociais">
+        <div>
+            <a href="#"><img src="./assets/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="./assets/instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="./assets/youtube-icon.png" alt="YouTube"></a>
+        </div>
     </section>
 
     <footer>
-        <div class="redes-sociais">
-            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
-        </div>
         <div class="footer-logo">
-            <img src="logo.png" alt="Logo Lumina Animal Care">
+            <img src="./assets/logo.jpg" alt="Logo Lumina Animal Care">
         </div>
         <p>© 2024 Lumina Animal Care. Todos os direitos reservados.</p>
     </footer>
 </body>
+
 </html>

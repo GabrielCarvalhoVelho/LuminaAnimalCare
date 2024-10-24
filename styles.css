@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #fff;
     color: #333;
 }
 
@@ -56,21 +56,38 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.sobre-nos h2,
+.servicos h2,
+.local h2,
+.redes-sociais,
+footer .redes-sociais a img {
+    color: #6F07AB;
+    margin-bottom: 20px; /* Ajuste o valor conforme necessário */
+}
+
 .sobre-nos .conteudo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-flex;
+    justify-content: space-between; /* Centraliza o conteúdo horizontalmente */
+    align-items:center; /* Centraliza o conteúdo verticalmente */
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
 }
 
 .sobre-nos .imagem {
-    width: 200px;
-    height: 200px;
-    background-color: #ccc;
+    width: 300px; /* Aumente a largura conforme desejado */
+    height: auto; /* Permite que a altura da imagem seja ajustada proporcionalmente */
     margin-right: 20px;
 }
 
+.sobre-nos .imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Ajuste o valor para aumentar ou diminuir a curvatura */
+}
+
 .sobre-nos .texto {
-    max-width: 600px;
+    max-width: 300px; /* Mesma largura que a imagem */
+    margin: 0 auto; /* Centraliza o texto horizontalmente */
+    text-align: justify; /* Justifica o texto */
 }
 
 .servicos-container {
@@ -80,25 +97,61 @@ nav ul li a:hover {
 }
 
 .servico {
-    background-color: #e0e0e0;
+    background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px; /* Borda arredondada */
+    text-align: center; /* Alinha o texto ao centro */
+    overflow: hidden; /* Para garantir que as bordas arredondadas sejam aplicadas */
+}
+
+.servico img {
+    width: 100%; /* Faz com que a imagem preencha a largura do container */
+    height: 200px; /* Altura fixa para todas as imagens */
+    object-fit: cover; /* Corta e ajusta a imagem corretamente */
+    border-radius: 10px; /* Borda arredondada para a imagem */
+}
+
+.local {
+    padding: 40px; /* Adiciona espaçamento interno na seção */
 }
 
 .mapa {
-    width: 100%;
-    height: 300px;
-    background-color: #ddd;
+    width: 100%; /* Faz o mapa ocupar toda a largura do container */
+    background-color: #fff; /* Cor de fundo do container */
+    border-radius: 15px; /* Borda arredondada para o container */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+}
+
+.redes-sociais {
+    padding: 40px; /* Adiciona espaço interno igual às outras seções */
+    background-color: #fff; /* O mesmo fundo cinza claro das outras seções */
+    text-align: center; /* Centraliza conteúdo da seção */
+    border-radius: 15px; /* Borda arredondada para manter a consistência */
+    margin: 20px 0; /* Espaçamento acima e abaixo da seção */
+}
+
+.redes-sociais h2 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.redes-sociais div {
+    display: flex; /* Exibe os ícones em linha */
+    justify-content: center; /* Centraliza os ícones */
+}
+
+.redes-sociais a {
+    margin: 0 10px; /* Espaçamento horizontal entre os ícones */
+}
+
+.redes-sociais img {
+    width: 50px; /* Aumente a largura dos ícones, por exemplo, para 50px */
+    height: auto; /* Mantém a proporção das imagens */
 }
 
 footer {
-    background-color: #f0f0f0;
+    background-color: #fff;
     padding: 20px;
     text-align: center;
-}
-
-footer .redes-sociais a {
-    margin: 0 10px;
 }
 
 footer img {
