@@ -23,6 +23,7 @@ header {
 }
 
 .divider {
+    width: 100%; /* Garante que a linha ocupe 100% da largura */
     border: none; /* Remove borda padrão */
     height: 2px; /* Espessura da linha */
     background-color: #6F07AB; /* Cor roxa */
