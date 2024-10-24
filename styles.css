@@ -73,7 +73,7 @@ footer .redes-sociais a img {
 }
 
 .sobre-nos .imagem {
-    width: 300px; /* Aumente a largura conforme desejado */
+    width: 700px; /* Aumente a largura conforme desejado */
     height: auto; /* Permite que a altura da imagem seja ajustada proporcionalmente */
     margin-right: 20px;
 }
@@ -85,9 +85,10 @@ footer .redes-sociais a img {
 }
 
 .sobre-nos .texto {
-    max-width: 300px; /* Mesma largura que a imagem */
+    max-width: 400px; /* Mesma largura que a imagem */
     margin: 0 auto; /* Centraliza o texto horizontalmente */
-    text-align: justify; /* Justifica o texto */
+    text-align: center; /* Justifica o texto */
+    font-size: large;
 }
 
 .servicos-container {
@@ -102,6 +103,11 @@ footer .redes-sociais a img {
     border-radius: 15px; /* Borda arredondada */
     text-align: center; /* Alinha o texto ao centro */
     overflow: hidden; /* Para garantir que as bordas arredondadas sejam aplicadas */
+}
+
+.servico p {
+    margin-top: 8px;
+    font-size: large;
 }
 
 .servico img {
