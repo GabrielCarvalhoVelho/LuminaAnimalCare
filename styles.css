@@ -206,20 +206,25 @@ footer p {
 }
 
 
+/* Adicione isso ao seu CSS existente */
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
         align-items: flex-start; /* Alinha os elementos à esquerda */
     }
 
-    nav ul {
-        flex-direction: column; /* Mudança de linha para coluna no menu */
-        margin-top: 10px; /* Espaçamento entre o logo e o menu */
+    nav { 
+        display: none; /* Remove o menu de navegação */
     }
 
-    nav ul li {
-        margin-bottom: 10px; /* Espaçamento entre os itens do menu */
-        margin-right: 0; /* Remove o espaçamento à direita */
+    .fachada {
+        display: none; /* Remove a seção de fachada */
+    }
+
+    .logo img {
+        width: 100%; /* Faz com que o logo ocupe 100% da largura da página */
+        height: auto; /* Mantém a proporção da imagem */
     }
 
     .sobre-nos .conteudo {
@@ -253,8 +258,7 @@ footer p {
         padding: 10px; /* Reduz o padding */
     }
 
-    footer logo img, 
-    .footer-logo img {
+    footer .footer-logo img {
         width: 100px; /* Reduz a largura do logotipo no rodapé */
     }
 
@@ -262,4 +266,5 @@ footer p {
         width: 40px; /* Ajusta a largura dos ícones das redes sociais */
     }
 }
+
 
