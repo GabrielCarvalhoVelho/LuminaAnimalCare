@@ -117,7 +117,12 @@ footer .redes-sociais a img {
     animation-delay: 0.7s; /* Delay para o texto */
 }
 
-.servicos-container {
+.servicos-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.servicos-container2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
