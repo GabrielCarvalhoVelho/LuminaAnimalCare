@@ -146,10 +146,11 @@ footer .redes-sociais a img {
 }
 
 .servico img {
-    width: 100%; /* Faz com que a imagem preencha a largura do container */
-    height: 200px; /* Altura fixa para todas as imagens */
-    object-fit: contain; /* Corta e ajusta a imagem corretamente */
-    border-radius: 10px; /* Borda arredondada para a imagem */
+     width: 100%;
+     height: auto; /* Ajusta a altura automaticamente de acordo com a largura */
+     max-height: 200px; /* Limita a altura máxima para evitar que seja muito alta */
+     object-fit: cover; /* Faz com que a imagem ainda cubra todo o contêiner */
+     border-radius: 10px;
 }
 
 .local {
