@@ -5,7 +5,9 @@
 }
 
 body {
-    font-family:'Roboto'; /* Atualiza para Roboto */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: #fff;
     color: #333;
 }
