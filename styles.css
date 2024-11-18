@@ -148,7 +148,7 @@ footer .redes-sociais a img {
 .servico img {
     width: 100%; /* Faz com que a imagem preencha a largura do container */
     height: 200px; /* Altura fixa para todas as imagens */
-    object-fit: cover; /* Corta e ajusta a imagem corretamente */
+    object-fit: contain; /* Corta e ajusta a imagem corretamente */
     border-radius: 10px; /* Borda arredondada para a imagem */
 }
 
