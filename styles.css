@@ -113,7 +113,7 @@ footer .redes-sociais a img {
     max-width: 410px; /* Mesma largura que a imagem */
     margin: 0 auto; /* Centraliza o texto horizontalmente */
     text-align: center; /* Justifica o texto */
-    font-size: large;
+    font-size: 20px;
     opacity: 0; /* Inicia invisível */
     animation: fadeIn 1s forwards; /* Animação de fade in para o texto */
     animation-delay: 0.7s; /* Delay para o texto */
