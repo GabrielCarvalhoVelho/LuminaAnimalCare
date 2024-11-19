@@ -75,6 +75,7 @@ nav ul li a:hover, .servico:hover {
 .redes-sociais,
 footer .redes-sociais a img {
     color: #6F07AB;
+    font-size: 36px;
     margin-bottom: 20px; /* Ajuste o valor conforme necessário */
     opacity: 0; /* Inicia invisível */
     animation: fadeIn 1s forwards; /* Animação de fade in */
